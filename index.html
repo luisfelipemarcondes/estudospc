@@ -1,74 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameZone</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-        }
-        h1 {
-            margin: 0;
-        }
-        nav {
-            background-color: #444;
-            text-align: center;
-            padding: 10px 0;
-        }
-        nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 20px;
-        }
-        .container {
-            max-width: 960px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-        }
-        h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.5;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-    </style>
+    <title>Minha Loja Online</title>
 </head>
 <body>
-    <header>
-        <h1>GameZone</h1>
-        <img src="https://gamerview.uai.com.br/wp-content/uploads/2021/05/Castlevania-temporadas-1-a-3.jpg" alt="Descrição da Imagem" width="1000" height="1000">
 
-    </header>
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Jogos Online</a>
-        <a href="#">Download de Jogos</a>
-        <a href="#">Contato</a>
-    </nav>
-    <div class="container">
-        <h2>Bem-vindo ao nosso site GameZone!</h2>
-        <p>Aqui você encontra uma grande variedade de jogos online para se divertir. Também oferecemos a opção de download de alguns jogos para que você possa jogá-los offline.</p>
-        <p>Explore nossa coleção de jogos e divirta-se!</p>
-    </div>
-    <footer>
-        Criado por Alunos do 1ºA - 2023
-    </footer>
+<header>
+    <h1>Bem-vindo à Minha Loja Online</h1>
+    <p>Sua loja de produtos incríveis</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+</nav>
+
+<section id="produtos">
+    <h2>Nossos Produtos</h2>
+
+    <article>
+        <img src="produto1.jpg" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>Descrição do Produto 1. Preço: R$ XX.XX</p>
+        <button>Comprar</button>
+    </article>
+
+    <article>
+        <img src="produto2.jpg" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>Descrição do Produto 2. Preço: R$ XX.XX</p>
+        <button>Comprar</button>
+    </article>
+
+    <!-- Adicione mais produtos conforme necessário -->
+</section>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Somos uma empresa dedicada a fornecer produtos de alta qualidade aos nossos clientes. Saiba mais sobre nossa missão e valores aqui.</p>
+</section>
+
+<section id="contato">
+    <h2>Entre em Contato</h2>
+    <p>Tem alguma pergunta? Entre em contato conosco.</p>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Minha Loja Online</p>
+</footer>
+
 </body>
 </html>
